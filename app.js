@@ -1,5 +1,6 @@
 function nearestSq(n){
-    // your code
+    let mySquare = Math.round(n ** 0.5) ** 2;
+    return mySquare;
 }
 
 console.log(nearestSq(1)); // 1 "nearestSq(1) = 1"
